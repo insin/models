@@ -1,0 +1,24 @@
+{
+ "name": "models"
+, "description": "Models, models, everywhere. In the client and in the server."
+, "version": "0.0.1"
+,"author": "Jonathan Buchanan <jonathan.buchanan@gmail.com> (https://github.com/insin)"
+, "repository": {
+    "type": "git"
+,   "url": "http://github.com/insin/models.git"
+  }
+, "main": "./lib/models"
+, "dependencies": {
+    "Concur": "0.2.x"
+  , "isomorph": "0.1.x"
+  , "newforms": "0.4.x"
+  , "validators": "0.2.x"
+  }
+, "devDependencies": {
+    "qqunit": "0.1.x"
+  , "buildumb": "0.1.x"
+  }
+, "scripts": {
+    "test": "node tests/tests.js"
+  }
+}
